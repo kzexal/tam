@@ -1,0 +1,235 @@
+﻿.home-page {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+    .home-page .container {
+        width: 100%;
+        max-width: 1140px;
+        padding: 40px 20px;
+    }
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+    .hero .content {
+        flex: 1;
+        min-width: 300px;
+    }
+
+    .hero .title {
+        font-size: 42px;
+        font-weight: 700;
+        color: #152c5b;
+        margin-bottom: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .hero .subtitle {
+        font-size: 16px;
+        color: #b0b0b0;
+        line-height: 1.7;
+        margin-bottom: 30px;
+        font-family: "Poppins", sans-serif;
+    }
+
+.stats {
+    display: flex;
+    gap: 20px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .stat img {
+        width: 32px;
+        height: 32px;
+    }
+
+.banner-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid #e5e5e5;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #152c5b;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.available-rooms {
+    margin-bottom: 80px;
+}
+
+.room-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.room-card {
+    display: block;
+    width: calc(33.333% - 13.33px);
+    background: #f9f9f9;
+    border-radius: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    transition: box-shadow 0.3s;
+}
+
+    .room-card:hover {
+        box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+.room-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.room-info {
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+    .room-info h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: #152c5b;
+    }
+
+    .room-info p {
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: #666;
+    }
+
+.price-badge {
+    background-color: #3252df;
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+    .price-badge span {
+        font-weight: 300;
+        margin-left: 4px;
+    }
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #666;
+}
+
+    .footer .footer-brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer .footer-logo {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+    }
+
+    .footer .logo {
+        font-size: 24px;
+        font-weight: 700;
+        color: #152c5b;
+        margin: 0;
+    }
+
+    .footer .tagline {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    .footer .copyright {
+        font-size: 12px;
+    }
+    
+    .footer .contact-info {
+        margin: 15px 0;
+    }
+    
+    .footer .contact-info p {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    
+    .footer .contact-info i {
+        margin-right: 8px;
+        color: #3252df;
+    }
+
+/* Responsive */
+@media (max-width: 992px) {
+    .room-card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .room-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hero .title {
+        font-size: 32px;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.home-page .HMS {
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    color: #3252df;
+    font-size: 28px;
+    margin: 0;
+}
+
+.brand-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.wraper-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
